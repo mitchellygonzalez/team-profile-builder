@@ -1,0 +1,32 @@
+header {
+    color: white;
+    background-color: darkcyan;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin: 10px;
+    padding: 12px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    color: rgb(73, 73, 73);
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    background-color:rgb(189, 223, 236);
+}
+
+.card-header {
+    color:white;
+    background: cadetblue;
+}
+
+.card {
+    padding: 8px;
+    margin: 10px;
+}
+

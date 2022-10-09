@@ -1,0 +1,26 @@
+{
+  "name": "team-profile-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchellygonzalez/team-profile-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitchellygonzalez/team-profile-builder/issues"
+  },
+  "homepage": "https://github.com/mitchellygonzalez/team-profile-builder#readme",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
