@@ -20,7 +20,7 @@ const generateTeam = (team) => {
     const generateEngineer = engineer => {
       console.log(engineer);
       let engineerHtml = `
-      <div class="flow" style="width: 16rem;">
+      <div class="rev" style="width: 16rem;">
         <div class="rec-cub">
         ${engineer.name} <br/>
         <i></i>Engineer</div>
@@ -36,7 +36,7 @@ const generateTeam = (team) => {
     const generateIntern = intern => {
       console.log(intern);
       let internHtml = `
-      <div class="flow" style="width: 16rem;">
+      <div class="rev" style="width: 16rem;">
         <div class="rec-cub">
         ${intern.name} <br/>
         <i"></i>Intern</div>
