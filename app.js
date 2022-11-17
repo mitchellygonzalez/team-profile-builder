@@ -13,14 +13,14 @@ const teamMembers = [];
 const promptManager = () => {
     return inquirer.prompt([
         {
-            type: 'input',
-            name: 'name',
-            message: 'What is your name?',
+            type: "input",
+            name: "name",
+            message: "What is your name?",
             validate: nameInput => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Please enter your name (Required)');
+                    console.log("Please enter your name");
                     return false;
                 }
             }
