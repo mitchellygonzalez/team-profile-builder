@@ -1,29 +1,29 @@
 const Engineer = require('../lib/Engineer');
 const engineer = new Engineer ('Michi', '1120005', 'Michi1@gmail.com','Michi1')
 
-test('gets the constructor values for the eningeer object', () => {
+test('values for engineer will be fed in', () => {
     expect(engineer.name).toBe('Michi');
     expect(engineer.id).toBe('1120005');
     expect(engineer.email).toBe('Michi1@gmail.com');
     expect(engineer.github).toBe('Michi1');
 });
 
-test('gets the name from the getName() method', () => {
+test('here we get the name of the engineer', () => {
     expect(engineer.getName()).toBe('Michi');
 });
 
-test('gets the id from the getId() method', () => {
+test('here we get the id of the engineer', () => {
     expect(engineer.getId()).toBe('1120005');
 });
 
-test('gets the email from the getEmail() method', () => {
+test('here we get the email of the engineer', () => {
     expect(engineer.getEmail()).toBe('Michi1@gmail.com');
 });
 
-test('gets the office number from the getGitHub() method', () => {
+test('here we get the github of the engineer', () => {
     expect(engineer.getGitHub()).toBe('Michi1');
 });
 
-test('gets the role from the getRole() method', () => {
+test('ere we get the role of the engineer', () => {
     expect(engineer.getRole()).toBe('Engineer')
 });

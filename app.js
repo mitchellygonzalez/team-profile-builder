@@ -20,7 +20,7 @@ const promptManager = () => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log("Please enter your name");
+                    console.log("Must enter");
                     return false;
                 }
             }
@@ -33,7 +33,7 @@ const promptManager = () => {
                 if (employeeId) {
                     return true;
                 } else {
-                    console.log('Please enter your Employee ID (Required)')
+                    console.log('Must enter')
                     return false;
                 }
             }
@@ -46,7 +46,7 @@ const promptManager = () => {
                 if (email) {
                     return true;
                 } else {
-                    console.log('Please enter your email address (Required)')
+                    console.log('Must enter')
                     return false;
                 }
             }
@@ -59,7 +59,7 @@ const promptManager = () => {
                 if (officeNumber) {
                     return true;
                 } else {
-                    console.log('Please enter your office number (Required')
+                    console.log('Must enter')
                     return false;
                 }
             }
@@ -96,9 +96,7 @@ const promptMenu = () => {
 
 const promptEngineer = () => {
     console.log(`
-    ===============
-    Add a New Engineer
-    ===============
+    Add an Engineer
     `);
     return inquirer.prompt([
         {
@@ -109,7 +107,7 @@ const promptEngineer = () => {
                 if (engineerName) {
                     return true;
                 } else {
-                    console.log('Please enter your name (Required)');
+                    console.log('Must enter');
                     return false;
                 }
             }
@@ -122,7 +120,7 @@ const promptEngineer = () => {
                 if (employeeId) {
                     return true;
                 } else {
-                    console.log('Please enter your Employee ID (Required)')
+                    console.log('Must enter')
                     return false;
                 }
             }
@@ -135,7 +133,7 @@ const promptEngineer = () => {
                 if (email) {
                     return true;
                 } else {
-                    console.log('Please enter your email address (Required)')
+                    console.log('Must enter')
                     return false;
                 }
             }
@@ -148,7 +146,7 @@ const promptEngineer = () => {
                 if (github) {
                     return true;
                 } else {
-                    console.log('Please enter your Github username (Required)')
+                    console.log('Must enter)')
                     return false;
                 }
             }
@@ -230,9 +228,7 @@ const promptIntern = () => {
 
 const buildTeam = () => {
     console.log(`
-    ===============
-    Finished building our team!
-    ===============
+    Done building the team
     `);
 
     if(!fs.existsSync(OUTPUT_DIR)) {

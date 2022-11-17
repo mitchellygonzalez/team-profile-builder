@@ -1,26 +1,26 @@
 const Intern = require('../lib/Intern');
 const intern = new Intern('Michi', '1120005', 'Michi1@gmail.com','Columbia University')
 
-test('get the constructor values for the engineer object', () => {
+test('values for engineer will be fed in', () => {
     expect(intern.name).toBe('Michi');
     expect(intern.id).toBe('1120005');
     expect(intern.email).toBe('Michi1@gmail.com');
     expect(intern.school).toBe('Columbia University');
 });
 
-test('gets the name from the getName() method', () => {
+test('here we get the name of the intern', () => {
     expect(intern.getName()).toBe('Michi');
 });
 
-test('gets the id from the getId() method', () => {
+test('here we get the id of the intern', () => {
     expect(intern.getId()).toBe('1120005');
 });
 
-test('gets the email from the getEmail() method', () => {
+test('here we get the email of the intern', () => {
     expect(intern.getEmail()).toBe('Michi1@gmail.com');
 });
 
-test('gets the school from the getSchool() method', () => {
+test('here we get the role of the intern', () => {
     expect(intern.getSchool()).toBe('Columbia University');
 });
 
