@@ -161,9 +161,7 @@ const promptEngineer = () => {
 
 const promptIntern = () => {
     console.log(`
-    ===============
-    Add a New Intern
-    ===============
+    Add an Intern
     `);
     return inquirer.prompt([
         {
